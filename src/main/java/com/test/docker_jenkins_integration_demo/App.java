@@ -14,7 +14,7 @@ public class App
         call();
     }
 
-	private static call() {
+	private static void call() {
 		System.out.println("in call() methid");
 	}
 }
