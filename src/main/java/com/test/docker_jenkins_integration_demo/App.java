@@ -10,5 +10,11 @@ public class App
     {
         System.out.println( "Hello World!" );
         System.out.println("It's new years day ...");
+        
+        call();
     }
+
+	private static call() {
+		System.out.println("in call() methid");
+	}
 }
